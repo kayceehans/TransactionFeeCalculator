@@ -7,7 +7,7 @@ namespace TransactionFeeCalculator.SharedKernel
 {
     public class SurchargeModel
     {
-       public decimal Amount { get; set; }
+        public decimal Amount { get; set; }
         public decimal TransferAmount { get; set; }
         public decimal Charge { get; set; }
         public decimal DebitAmount { get; set; }

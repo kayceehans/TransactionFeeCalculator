@@ -79,6 +79,8 @@ namespace TransactionFeeCalculator
             {
                 endpoints.MapControllers();
             });
+            app.UseSwagger();
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "PlaceInfo Services"));
         }
     }
 }
